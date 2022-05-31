@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'South Holland';
+    src: url('./South-Holland.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+}
+
+.hello {
+    color: white;
+    background: url('./icon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'South Holland';
+    padding: 30px;
+}
